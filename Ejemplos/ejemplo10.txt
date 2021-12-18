@@ -17,5 +17,14 @@
 13.     Fin Si
 14.   Fin_Para 
 15. Fin_Para 
-16. Fin
+16. Escribir suma
+17. Fin
+
+// fila 0, 1
+
+// columna 0, 1, 2, 3, 0, 1, 2, 3 
+
+// suma 0, 10, 15 
+
+//Pantalla
 

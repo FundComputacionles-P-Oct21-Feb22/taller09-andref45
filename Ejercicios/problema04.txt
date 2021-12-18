@@ -1,0 +1,21 @@
+1. Inicio 
+2. (vendedores(2), x(50)[{a-z}, {A-Z}, {BS})
+3. vendedores[0] <-- "Jessica Cole"
+4. vendedores[1] <-- "Robert Wallace"
+5. (ventas(2)(5), d[0-n]
+6. fila, i[0-n]
+7, columna, i[0-n]
+8. total_ventas, d[0-n] <-- 0
+9. valor, d[0-n]
+9. Para (fila <-- 0, fila <2, 1) haga
+10. 	Para (columna <-- 0, columna <5, 1) haga
+11.		Escribir "Ingrese el valor de la ventas de lunes a viernes"
+12.		Leer valor
+13.		ventas[fila][columna] <-- valor
+14. 		total_ventas <-- total_ventas + ventas[fila][columna]
+15. 	Fin_Para
+16. Fin_Para
+17. Escribir "Vendedor(a)" + vendedores[0]
+18. Escribir "Vendedor(a)" + vendedores[1]
+19. Escribir "Ha realizado un total de " + total_ventas + "en ventas"
+20. Fin 
